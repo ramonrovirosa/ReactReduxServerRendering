@@ -25,7 +25,7 @@ var _server = require('react-dom/server');
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var app = (0, _express2.default)();
-var port = 3000;
+var port = 80;
 
 // This is fired every time the server side receives a request
 app.use(handleRender);
